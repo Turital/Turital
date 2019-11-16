@@ -1,0 +1,206 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "c = int(input())\n",
+    "print(a + b +c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3\n",
+      "5\n",
+      "7.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "h = int(input())\n",
+    "S = (a*h/2)\n",
+    "print(S)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n",
+      "50\n",
+      "8\n",
+      "2\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "k = int(input())\n",
+    "print(k//n) #у каждого школьника\n",
+    "print(k%n) #остальнось в корзинке"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1440\n",
+      "0 0\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "h = n//60%24 \n",
+    "m = n%60\n",
+    "print(h, m)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Harry\n",
+      "Hello, Harry!\n"
+     ]
+    }
+   ],
+   "source": [
+    "name1 = str(input())\n",
+    "name2 = name1 + \"!\"\n",
+    "print(\"Hello,\", name2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "500\n",
+      "The next number for the number 500 is 501\n",
+      "The previous number for the number 500 is 499\n"
+     ]
+    }
+   ],
+   "source": [
+    "n = int(input())\n",
+    "print(\"The next number for the number\", n, \"is\", n+1)\n",
+    "print(\"The previous number for the number\", n, \"is\", n-1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n",
+      "21\n",
+      "22\n",
+      "32\n"
+     ]
+    }
+   ],
+   "source": [
+    "a1 = int(input())\n",
+    "a2 = int(input())\n",
+    "a3 = int(input())\n",
+    "all1 = a1//2 + a1%2\n",
+    "all2 = a2//2 + a2%2\n",
+    "all3 = a3//2 + a3%2\n",
+    "print(all1+all2+all3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "1\n",
+      "1\n",
+      "1\n",
+      "3\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = int(input())\n",
+    "b = int(input())\n",
+    "l = int(input())\n",
+    "N = int(input())\n",
+    "print(l*2 + b*(N-1)*2 +(a*N*2)-a)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
