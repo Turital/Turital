@@ -10,7 +10,11 @@ def show_zodiac_bottons_on(message):
         key_zod = types.InlineKeyboardButton(text=zod, callback_data='zodiac')
         keyboard.add(key_zod)
 
+<<<<<<< HEAD
     BoyGoW.send_message(message.from_user.id, 'Выбери свой знак зодиака, МАЛЬЧИК!', reply_markup=keyboard)
+=======
+    BoyGoW.send_message(message.from_user.id, 'ВЫбери свой знак зодиака, МАЛЬЧИК!', reply_markup=keyboard)
+>>>>>>> 65901c6bfcbd6628f27af3e58cb7e7bfe76d76e3
 
 @BoyGoW.message_handler(content_types=['text'])
 def get_text_message(message):
@@ -24,7 +28,11 @@ def get_text_message(message):
 
 @BoyGoW.callback_query_handler(func=lambda call: True)
 def callback_worker(call):
+<<<<<<< HEAD
     if call.data == 'zodiac':
+=======
+    if call_data == 'zodiac':
+>>>>>>> 65901c6bfcbd6628f27af3e58cb7e7bfe76d76e3
         msg = anime.get_prediction()
         BoyGoW.send_message(call.message.chat.id, msg)
 
